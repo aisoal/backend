@@ -69,4 +69,4 @@ jobs:
           local-dir: ./
           server-dir: ${{ secrets.FTP_SERVER_DIR }}
           exclude: |
-            **/*
+            dist/
