@@ -59,7 +59,7 @@ yarn start
 
 ---
 
-## 🏗️ Arsitektur Logika (Sesuai Bab 4 Tesis)
+## 🏗️ Arsitektur Logika
 
 Backend mengimplementasikan alur **Post-Processing** yang ketat untuk memastikan hasil AI dapat dibaca oleh sistem:
 
