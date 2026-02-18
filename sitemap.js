@@ -12,7 +12,7 @@ const createSitemap = async (req, res) => {
   }
 
   try {
-    const baseUrl = "https://example.com";
+    const baseUrl = "https://aisoal.nabilaba.my.id";
 
     const smStream = new SitemapStream({
       hostname: baseUrl,
@@ -51,6 +51,13 @@ const createSitemap = async (req, res) => {
   }
 };
 
-const data = [{ url: "/", priority: 1.0 }];
+const data = [
+  { url: "/", priority: 1.0 },
+  { url: "/about", priority: 0.8 },
+  { url: "/register", priority: 0.8 },
+  { url: "/login", priority: 0.8 },
+  { url: "/stats", priority: 0.8 },
+  { url: "/history", priority: 0.8 },
+];
 
 module.exports = createSitemap;
